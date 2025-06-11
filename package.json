@@ -1,0 +1,12 @@
+{
+  "name": "minecraft-ai-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot that helps, entertains, and chats.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.17.1"
+  }
+}
