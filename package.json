@@ -1,12 +1,14 @@
 {
-  "name": "minecraft-ai-bot",
+  "name": "minecraft-gpt-bot",
   "version": "1.0.0",
-  "description": "A Minecraft bot that helps, entertains, and chats.",
+  "description": "A Minecraft bot that chats using ChatGPT.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "mineflayer": "^4.17.1"
+    "mineflayer": "^4.17.1",
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0"
   }
 }
